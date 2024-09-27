@@ -1,0 +1,20 @@
+{
+  "name": "ics-side-menu",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0"
+  },
+  "keywords": [
+    "angular",
+    "side-menu",
+    "menu",
+    "navigation"
+  ],
+  "license": "MIT",
+  "author": "Gerardo Rodriguez",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

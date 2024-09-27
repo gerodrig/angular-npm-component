@@ -1,0 +1,9 @@
+<h1 class="text-3xl font-bold underline">Hello Testbed</h1>
+<p>Testbed is a powerful tool for testing Angular components.</p>
+
+<ics-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  [titleColor]="TitleColor.yellow"
+  (onSignOut)="isAuthenticated.set(false)"
+  (onSignIn)="isAuthenticated.set(true)"
+/>
